@@ -1,0 +1,110 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+body {
+  margin: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px 20px;
+  box-sizing: border-box;
+
+
+}
+
+.header {
+  margin-bottom: 40px;
+  background-color: rgba(202, 201, 250, 0.336);
+
+}
+
+.header__logo {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: large;
+}
+
+.header__input {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid rgb(107, 106, 106);
+  color: rgb(51, 48, 48);
+  border-radius: 7px;
+  font-size: 16px;
+  background-color: inherit;
+  outline-style: none;
+  padding: 10px 5px;
+
+}
+
+.card {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #e9e7e7a1;
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 0 27px 55px 0 rgb(0 0 0 / 30%), 0 17px 17px 0 rgb(0 0 0 / 15%);
+
+}
+
+.card__title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+
+  font-weight: 600;
+  margin: 0;
+  
+  padding-left: 40px;
+}
+
+.card__table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid rgba(107, 106, 106, 0.479);
+  border-radius: 4px;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+td:last-child {
+  text-align: center;
+  border-left: 1px solid rgba(107, 106, 106, 0.479);
+}
+
+tr {
+  background-color: #e6e3e3
+}
+
+tr:nth-child(even) {
+
+  background-color: rgb(238, 238, 238);
+}
+
+.weatherIcon {
+  flex: 1 100%;
+  height: 60%;  
+  font-family: weathericons;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.weatherIcon i {
+  padding-top: 30px;
+}
