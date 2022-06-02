@@ -3,10 +3,6 @@ var fetchWeather = "/weather";
 const ref = {
   weatherForm: document.querySelector(".header__form"),
   search: document.querySelector(".header__input"),
-  weatherIcon: document.querySelector(".weatherIcon i"),
-  weatherCondition: document.querySelector(".pressure"),
-  locationElement: document.querySelector(".card__span"),
-  tempElement: document.querySelector(".temperature"),
   cardElement: document.querySelector(".card"),
 };
 ref.weatherForm.addEventListener("submit", (e) => {
